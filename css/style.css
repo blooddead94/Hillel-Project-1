@@ -1,0 +1,145 @@
+@import url(reset.css);
+
+
+.header {
+  background: #81A36B;
+  padding: 19px;
+}
+
+.header-container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 19px 0;
+  font-weight: 400;
+  font-size: 36px;
+  font-family: Architects Daughter;
+}
+
+.main {
+  background: rgb(227, 226, 226);
+  ;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  font-size: 18px;
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 400;
+  list-style: none;
+}
+
+.menu-list a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 18px 34px;
+  background-color: #81A36B;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 400;
+  border-radius: 6px;
+  width: 197px;
+}
+
+.florist {
+  display: flex;
+}
+
+
+.info {
+  flex: 0 0 auto;
+  background: #81A36B;
+  padding: 25px;
+}
+
+.info-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 21px;
+}
+
+.containercard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.card img {
+  display: block;
+  height: 120px;
+  object-fit: cover;
+}
+
+.card-text {
+  flex-direction: column;
+}
+
+
+
+.year {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+.underlined {
+  text-decoration: underline;
+  padding: 7.5px;
+}
+
+
+/* 
+
+
+photo first :
+position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+    text :
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+ */
