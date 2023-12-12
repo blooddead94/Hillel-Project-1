@@ -126,6 +126,12 @@
 }
 
 
+
+
+
+
+
+
 /* 
 photo first :
 position: absolute;
@@ -141,3 +147,33 @@ position: absolute;
     font-size: 30px;
     line-height: 30px;
  */
+
+
+.container .final_wrapper {
+  color: black;
+  font-family: 'Roboto';
+  min-height: 282px;
+  width: 1470px;
+  background: #81A36B;
+}
+
+.final_wrapper {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 78px;
+  align-items: center;
+
+}
+
+
+.final_wrapper .final_item .final_descr {
+  margin-top: 25px;
+  text-align: center;
+  color: black;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+}
