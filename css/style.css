@@ -1,13 +1,59 @@
 @import url(reset.css);
 
 
+/* General setting - commenced */
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: #D8D8D6;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* General setting - completed */
+
+/* button - commenced */
+
+.btn {
+  cursor: pointer;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 21px 34px;
+  border: 1px solid #81A36B;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn-outline {
+  background: transparent;
+}
+
+
+/* button - completed */
+
+
+
+/* Header - Menu - commenced */
 .header {
   background: #81A36B;
-  padding: 19px;
+  padding: 24px 0;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-container {
-  max-width: 1470px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
@@ -15,18 +61,16 @@
   align-items: center;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  margin: 19px 0;
-  font-weight: 400;
-  font-size: 36px;
-  font-family: Architects Daughter;
-}
-
 .main {
   background: rgb(227, 226, 226);
-  ;
+}
+
+.container-section {
+  display: flex;
+}
+
+.logo {
+  line-height: 1;
 }
 
 .menu-list {
@@ -47,109 +91,68 @@
   font-size: 20px;
 }
 
+/* Header - Menu - completed */
 
 
+/* PART 1 - Amelia - commenced*/
 
 
-
-
-.button {
+.amelia-container {
   display: flex;
-  justify-content: center;
-  text-decoration: none;
-  padding: 18px 34px;
-  background-color: #81A36B;
-  font-size: 18px;
-  font-family: Roboto;
-  font-weight: 400;
-  border-radius: 6px;
-  width: 197px;
-}
-
-.florist {
-  display: flex;
-}
-
-
-.info {
-  flex: 0 0 auto;
-  background: #81A36B;
-  padding: 25px;
-}
-
-.info-text {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  gap: 30px;
 }
 
-.social {
+.amelia-inner {
+  flex: 1 1 45%
+}
+
+.amelia-title {
+  font-family: 'Architects Daughter';
+  font-size: 62px;
+  margin: 0 0 40px;
+}
+
+.amelia-descr {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.amelia-btns {
   display: flex;
-  justify-content: center;
-  margin-top: 15px;
-  gap: 21px;
+  gap: 25px;
 }
 
-.containercard {
-  display: flex;
-  flex-wrap: wrap;
+.amelia-image {
+  flex: 1 1 45%;
+  he: 670px;
 }
 
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 30px;
-}
-
-.card img {
-  display: block;
-  height: 120px;
+.amelia-image img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-.card-text {
-  flex-direction: column;
+/* Amelia - Completed */
+
+
+/* About Us - commenced */
+
+
+.aboutus {
+  pad: 120px 0;
 }
 
+.container {}
 
-
-.year {
-  display: flex;
-  padding: 15px;
-  justify-content: center;
-}
-
-.underlined {
-  text-decoration: underline;
-  padding: 7.5px;
-}
-
-.container .final_wrapper {
-  color: black;
-  font-family: 'Roboto';
-  min-height: 282px;
-  width: 1470px;
-  background: #81A36B;
-}
-
-.final_wrapper {
-  display: flex;
-  justify-content: space-around;
-  max-width: 1470px;
-  margin: 0 auto;
-  padding: 78px;
-  align-items: center;
-
-}
-
-
-.final_wrapper .final_item .final_descr {
-  margin-top: 25px;
+.aboutus-container {
+  max-width: 570px;
   text-align: center;
-  color: black;
-  font-family: "Roboto";
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 20px;
+}
+
+.aboutus-txt {
+  font-size: 32px;
+  font-family: 'Architects Daughter';
+  margin-bottom: 50px;
 }
