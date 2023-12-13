@@ -160,17 +160,23 @@ body {
 
 
 /* Icons Five - commenced */
-.wrap-icons {
-  width: 1440px;
+.container {
+  max-width: 1140px;
   margin: 0 auto;
+}
+
+.wrap-icons {
+  background: #81A36B;
 }
 
 .final_wrapper {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background: #81A36B;
   padding: 78px 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Icons Five - completed */
@@ -217,9 +223,7 @@ body {
 
 /* Our Works - commenced */
 
-.cards {}
 
-.container-cards {}
 
 .card-container {
   display: flex;
