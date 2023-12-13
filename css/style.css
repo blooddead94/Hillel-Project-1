@@ -215,8 +215,46 @@ body {
 
 
 
-/* Our Words - commenced */
-/* Our Words - completed */
+/* Our Works - commenced */
+
+.cards {}
+
+.container-cards {}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 10px;
+}
+
+.card {
+  width: 400px;
+  background: #81A36B;
+}
+
+.card-img {
+  display: block;
+  height: 120px;
+  margin: 0 0 15px;
+}
+
+.card-ing img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card-title {
+  color: #81A36B;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 900;
+  margin: 0 0 20px;
+}
+
+/* Our Works - completed */
 
 
 /* Footer - commenced */
@@ -225,7 +263,6 @@ body {
   background: #81A36B;
   padding: 50px 0;
   margin: 0 auto;
-  min-height: 363px;
 }
 
 .footer-section {
