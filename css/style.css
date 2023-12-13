@@ -125,7 +125,7 @@ body {
 
 .amelia-image {
   flex: 1 1 45%;
-  he: 670px;
+  height: 670px;
 }
 
 .amelia-image img {
@@ -143,8 +143,6 @@ body {
 .aboutus {
   pad: 120px 0;
 }
-
-.container {}
 
 .aboutus-container {
   max-width: 570px;
