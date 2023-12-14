@@ -107,6 +107,8 @@ body {
   flex: 1 1 45%;
 }
 
+
+
 .amelia-title {
   font-family: 'Architects Daughter';
   font-size: 62px;
@@ -224,19 +226,38 @@ body {
 
 /* Our Works - commenced */
 
-
 .card-text {
   text-align: center;
   margin-top: 120px;
   font-family: 'Architects Daughter';
   font-weight: 400;
   font-size: 38px;
+}
 
+
+.general-cards {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .container-cards {
   margin-top: 50px;
+}
 
+.card-container {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+
+.card {
+  flex: 1 1 30%;
+  background: #81A36B;
+}
+
+.card-img {
+  display: block;
+  height: 400px;
 }
 
 .card-img img {
@@ -245,13 +266,16 @@ body {
   object-fit: cover;
 }
 
-.card-container {
-  display: flex;
-  justify-content: center;
+
+.card-title a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
   text-align: center;
-  gap: 30px;
-  background: #81A36B;
 }
+
 
 /* Our Works - completed */
 
@@ -277,6 +301,15 @@ body {
   flex-direction: column;
   text-align: center;
   text-decoration: none;
+}
+
+.one-tel,
+.two-tel {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
 }
 
 /* Footer - completed */
