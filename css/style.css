@@ -189,6 +189,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
+  margin-top: 120px;
 }
 
 .work-inner {
@@ -224,38 +225,32 @@ body {
 /* Our Works - commenced */
 
 
+.card-text {
+  text-align: center;
+  margin-top: 120px;
+  font-family: 'Architects Daughter';
+  font-weight: 400;
+  font-size: 38px;
 
-.card-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  padding: 10px;
 }
 
-.card {
-  width: 400px;
-  background: #81A36B;
+.container-cards {
+  margin-top: 50px;
+
 }
 
-.card-img {
-  display: block;
-  height: 120px;
-  margin: 0 0 15px;
-}
-
-.card-ing img {
+.card-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-
-.card-title {
-  color: #81A36B;
-  text-transform: uppercase;
-  font-size: 26px;
-  font-weight: 900;
-  margin: 0 0 20px;
+.card-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  background: #81A36B;
 }
 
 /* Our Works - completed */
@@ -267,6 +262,7 @@ body {
   background: #81A36B;
   padding: 50px 0;
   margin: 0 auto;
+  margin-top: 120px;
 }
 
 .footer-section {
