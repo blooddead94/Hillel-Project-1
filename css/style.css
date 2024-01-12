@@ -1,4 +1,4 @@
-@import url(reset.css);
+@import url(css/reset.css);
 
 
 /* General setting - commenced */
@@ -319,3 +319,65 @@ body {
 }
 
 /* Footer - completed */
+
+
+/* Adaptacia - Media - commenced */
+
+@media(max-width:360px) {
+
+  .container {
+    background: rgba(5, 201, 241, 0.575);
+    gap: 30px;
+  }
+
+  .menu-list {
+    gap: 10px;
+    font-size: 10px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .aboutus p {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .work-inner p {
+    font-size: 10px;
+    text-align: left;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card {
+    background: #81A36B;
+  }
+
+  .aboutus p {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+
+  .amelia {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .amelia img {
+    display: inline-flex;
+  }
+
+  /* .container final_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+}
