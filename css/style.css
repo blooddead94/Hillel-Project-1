@@ -328,10 +328,11 @@ body {
   }
 
   .amelia p {
-  font-size: 18px;
-  text-align: center;
-  padding: 0 0 10px 0;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 0 10px 0;
   }
+
   .amelia-title {
     font-size: 24px;
     padding: 20px;
@@ -343,34 +344,43 @@ body {
   }
 
   .amelia-image {
-    flex:25%;
+    flex: 25%;
     align-items: center;
   }
 
 }
+
+@media (max-width:872px) {
+  .menu-list a {
+    font-size: 16px;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
 @media (max-width:778px) {
   .menu-list a {
     font-size: 14px;
-    justify-content:center;
+    justify-content: center;
     gap: 5px;
   }
 }
 
 @media (max-width:662px) {
 
-  .menu-list  {
-  gap: 10px;
-  padding: 0 10px;
+  .menu-list {
+    gap: 10px;
+    padding: 0 10px;
   }
 
   .header-container {
-padding: 0 0 5px;    
+    padding: 0 0 5px;
   }
 }
 
 @media (max-width:524px) {
   .menu-list a {
-  font-size: 12px;
+    font-size: 12px;
   }
 
   .cards h2 {
@@ -381,13 +391,15 @@ padding: 0 0 5px;
     font-size: 14px;
     gap: 10px;
   }
-  
-  .aboutus-txt,p  {
+
+  .aboutus-txt,
+  p {
     font-size: 14px;
   }
 
 
-  .footer-section,a {
+  .footer-section,
+  a {
     font-size: 14px;
   }
 }
@@ -397,24 +409,25 @@ padding: 0 0 5px;
   .menu-list a {
     font-size: 9px;
     gap: 2px;
-    }
+  }
 
-    .amelia h1 {
-      font-size: 16px;
-    }
+  .amelia h1 {
+    font-size: 16px;
+  }
 
-    .amelia p {
-      font-size: 12px;
-    }
-    .aboutus-txt,p  {
-      font-size: 12px;
-    }
-  
-  
-    .footer-section,a {
-      font-size: 12px;
-    }
+  .amelia p {
+    font-size: 12px;
+  }
+
+  .aboutus-txt,
+  p {
+    font-size: 12px;
+  }
+
+
+  .footer-section,
+  a {
+    font-size: 12px;
+  }
 
 }
-
-
