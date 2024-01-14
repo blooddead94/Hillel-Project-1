@@ -1,4 +1,4 @@
-@import url(css/reset.css);
+@import url('reset.css');
 
 
 /* General setting - commenced */
@@ -248,18 +248,17 @@ body {
   display: flex;
   text-align: center;
   gap: 30px;
-  width: 1110px;
-  height: 510px;
+  max-width: 1110px;
 }
 
 .card {
   flex: 1 1 30%;
+  padding: 15px 15px 40px;
   background: #81A36B;
 }
 
 .card-img {
   display: inline-block;
-  width: 320px;
   height: 402px;
 
 }
@@ -323,61 +322,99 @@ body {
 
 /* Adaptacia - Media - commenced */
 
-@media(max-width:360px) {
-
-  .container {
-    background: rgba(5, 201, 241, 0.575);
-    gap: 30px;
+@media(max-width:992px) {
+  .amelia-container {
+    flex-flow: column;
   }
 
-  .menu-list {
-    gap: 10px;
-    font-size: 10px;
-    color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .amelia p {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 0 10px 0;
+  }
+  .amelia-title {
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
   }
 
-  .aboutus p {
-    text-align: left;
-    font-size: 14px;
+  .amelia-btns {
+    justify-content: center;
   }
 
-  .work-inner p {
-    font-size: 10px;
-    text-align: left;
-    color: orangered;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  .amelia-image {
+    flex:25%;
+    align-items: center;
   }
 
-  .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .card {
-    background: #81A36B;
-  }
-
-  .aboutus p {
-    font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-    padding-bottom: 15px;
-  }
-
-  .amelia {
-    font-size: 14px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
-  .amelia img {
-    display: inline-flex;
-  }
-
-  /* .container final_wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  } */
 }
+@media (max-width:778px) {
+  .menu-list a {
+    font-size: 14px;
+    justify-content:center;
+    gap: 5px;
+  }
+}
+
+@media (max-width:662px) {
+
+  .menu-list  {
+  gap: 10px;
+  padding: 0 10px;
+  }
+
+  .header-container {
+padding: 0 0 5px;    
+  }
+}
+
+@media (max-width:524px) {
+  .menu-list a {
+  font-size: 12px;
+  }
+
+  .cards h2 {
+    font-size: 14px;
+  }
+
+  .amelia-btns {
+    font-size: 14px;
+    gap: 10px;
+  }
+  
+  .aboutus-txt,p  {
+    font-size: 14px;
+  }
+
+
+  .footer-section,a {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width:475px) {
+  .menu-list a {
+    font-size: 9px;
+    gap: 2px;
+    }
+
+    .amelia h1 {
+      font-size: 16px;
+    }
+
+    .amelia p {
+      font-size: 12px;
+    }
+    .aboutus-txt,p  {
+      font-size: 12px;
+    }
+  
+  
+    .footer-section,a {
+      font-size: 12px;
+    }
+
+}
+
+
