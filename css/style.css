@@ -378,6 +378,14 @@ body {
   }
 }
 
+@media(max-width:600px) {
+  .menu-list {
+    font-size: 14px;
+    object-fit: none;
+
+  }
+}
+
 @media (max-width:524px) {
   .menu-list a {
     font-size: 12px;
