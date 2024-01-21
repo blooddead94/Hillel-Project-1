@@ -8,6 +8,7 @@ body {
   line-height: 1.6;
   background: #D8D8D6;
   font-size: 18px;
+  height: 100%;
 }
 
 .container {
@@ -63,6 +64,8 @@ body {
 
 .main {
   background: rgb(227, 226, 226);
+  display: flex;
+  flex-direction: column;
 }
 
 .container-section {
@@ -238,6 +241,7 @@ body {
 .general-cards {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 10px 0 10px;
 }
 
 .container-cards {
@@ -322,120 +326,97 @@ body {
 
 /* Adaptacia - Media - commenced */
 
-@media(max-width:992px) {
+@media (max-width:1000px) {
+  body {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .menu-list {
+    gap: 20px;
+  }
+
+  .amelia {
+    position: relative;
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
   .amelia-container {
-    flex-flow: column;
+    justify-content: center;
   }
 
-  .amelia p {
-    font-size: 18px;
+  .amelia-inner {
     text-align: center;
-    padding: 0 0 10px 0;
+    max-width: 450px;
   }
 
-  .amelia-title {
-    font-size: 24px;
-    padding: 20px;
-    text-align: center;
+  .amelia-inner+h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
   }
 
   .amelia-btns {
     justify-content: center;
   }
 
-  .amelia-image {
-    flex: 25%;
-    align-items: center;
+  .amelia-inner+img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(6px);
   }
 
 }
 
-@media (max-width:872px) {
-  .menu-list a {
-    font-size: 16px;
-    justify-content: center;
-    gap: 10px;
-  }
-}
-
-@media (max-width:778px) {
-  .menu-list a {
+@media (max-width:768px) {
+  .header-container {
     font-size: 14px;
     justify-content: center;
-    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .menu-list {
+    display: none;
+    padding: 10px;
   }
 }
 
-@media (max-width:662px) {
-
-  .menu-list {
-    gap: 10px;
-    padding: 0 10px;
+@media(max-width:633px) {
+  .header-container {
+    font-size: 9px;
+    gap: 5px;
+    padding: 5px;
   }
 
-  .header-container {
-    padding: 0 0 5px;
+  .amelia-container {
+    flex-direction: column;
+  }
+
+  .work-container {
+    flex-direction: column;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .final_wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 }
 
 @media(max-width:600px) {
-  .menu-list {
-    font-size: 14px;
-    object-fit: none;
-
-  }
-}
-
-@media (max-width:524px) {
-  .menu-list a {
-    font-size: 12px;
-  }
-
-  .cards h2 {
-    font-size: 14px;
-  }
 
   .amelia-btns {
-    font-size: 14px;
-    gap: 10px;
+    flex-flow: column;
+    gap: 20px;
   }
-
-  .aboutus-txt,
-  p {
-    font-size: 14px;
-  }
-
-
-  .footer-section,
-  a {
-    font-size: 14px;
-  }
-}
-
-
-@media (max-width:475px) {
-  .menu-list a {
-    font-size: 9px;
-    gap: 2px;
-  }
-
-  .amelia h1 {
-    font-size: 16px;
-  }
-
-  .amelia p {
-    font-size: 12px;
-  }
-
-  .aboutus-txt,
-  p {
-    font-size: 12px;
-  }
-
-
-  .footer-section,
-  a {
-    font-size: 12px;
-  }
-
 }
